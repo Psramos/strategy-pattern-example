@@ -10,8 +10,6 @@ $dungeon = new Dungeon();
 
 $hero    = new Paladin();
 
-$hero->setWeapon(new \Entity\Weapon\HammerWeapon());
-
 $enemy   = new Monster();
 
 $result  = $dungeon->battle($hero, $enemy);
